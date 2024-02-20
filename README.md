@@ -1,3 +1,5 @@
+# This is a mini project of weather forecast compeletely made with react.js. Use of APIs (Openweather and RapidAPI) are used to get the live weather forecaste and make the user experience better.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
