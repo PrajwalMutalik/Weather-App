@@ -1,0 +1,69 @@
+.title {
+  font-weight: 700;
+  font-size: 28px;
+  color: aliceblue;
+  
+}
+.daily-forcast {
+  background-color: transparent;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 /30%);
+
+  border-radius: 15px;
+  margin: 5px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 20px;
+  backdrop-filter: blur(14px);
+  
+}
+.daily-forcast:hover,.daily-forcast:focus{
+  transition: all 0.8s ease-out; 
+  transition: width 2s, height 4s;
+  background-color: #757c7e;
+  box-shadow: 0 0 15px #ffffff;
+  transition: 2s;
+}
+.icon-forcast {
+  width: 40px;
+}
+.day {
+  color: white;
+  flex: 1 1;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.description {
+  flex: 1 1;
+  margin-right: 15px;
+  text-align: right;
+}
+.min {
+  color: white;
+}
+
+.forcast-details {
+  grid-row-gap: 0;
+  grid-column-gap: 15px;
+  column-gap: 15px;
+  display: grid;
+  flex: 1 1;
+  grid-template-columns: auto auto;
+  padding: 5px 15px;
+}
+
+.forcast-details-item {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+}
+.forcast-details-item label:first-child {
+  color: white;
+}
+.forcast-details-item label:last-child {
+  color: rgb(215, 213, 213);
+ 
+}
